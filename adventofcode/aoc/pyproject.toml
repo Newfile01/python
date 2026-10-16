@@ -1,0 +1,25 @@
+[project]
+name = "aoc"
+version = "0.1.0"
+description = "Day 01 to 31 of Python coding challenge"
+readme = "README.md"
+authors = [
+    { name = "Newfile01", email = "nicolas.morel.01000@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.0.6",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+aoc = "aoc:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.1",
+]
