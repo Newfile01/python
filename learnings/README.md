@@ -2,8 +2,8 @@
 
   
 
-| Related links 🔗 | [Coding Game](https://www.codingame.com/start/fr/) | [AdventOfCode](https://adventofcode.com/2025/day/1) |
-| --- | --- | --- |
+| Related links 🔗 | [Coding Game](https://www.codingame.com/start/fr/) | [AdventOfCode](https://adventofcode.com/2025/day/1) | [GitHub Stephane Robert](https://github.com/stephrobert/python-training/blob/main/00-formation-base) |
+| --- | --- | --- | --- |
 
 ---
 
