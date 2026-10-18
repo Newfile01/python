@@ -40,7 +40,7 @@ def rotate_dial(instructions: tuple) -> int:
 
 
 def main():
-    print("→ " + str(rotate_dial(collect_input('input.txt'))) + " passages par 0")
+    print("→ " + str(rotate_dial(collect_input('input_d01.txt'))) + " passages par 0")
 
     return 0
 
