@@ -54,30 +54,8 @@ def collect_wrong_patterns(tuple_range_list: tuple) -> list:
     return wrong_patterns
 
 
-# def sum_list(tuple_patterns: tuple) -> int:
-#     print(" ➕ Processing results")
-#     patterns_list = list(tuple_patterns)
-#     res = 0
-
-#     for i in patterns_list:
-#         res += i
-#         # print(
-#         #     f" i = {i}\t res = {res}"
-#         # )
-
-#     return res
-
-
 # #3 - VALIDATION IDs
 # -------------------------
-# Générateur aléatoire d'IDs
-# def generate_id() -> int:
-#     length = random.randint(2, 10)
-#     first_digit = random.randint(1, 9)
-#     remaining_digits = random.randint(0, 10**(length - 1) - 1)
-
-#     return first_digit * 10**(length - 1) + remaining_digits
-
 def is_wrong_id(id_str: str) -> bool:
     if len(id_str) % 2 != 0:
         return False
@@ -91,20 +69,6 @@ def is_wrong_id(id_str: str) -> bool:
 
 
 def main():
-    # Pour comprendre
-    # print(
-    #     f"Liste de plage {chain_input_as_list("input_d02.txt")}"
-    # )
-
-    # Pour comprendre
-    # while True:
-    #     id_value = generate_id()
-    #     result = is_wrong_id(str(id_value))
-    #     print(id_value, result)
-
-    #     if result:
-    #         break
-
     file = "input_d02.txt"
 
     print(
@@ -112,24 +76,6 @@ def main():
         f"\n\n  → Res = {sum(collect_wrong_patterns(chain_input_as_list(file)))}"
     )
 
-    # print("Test nettoyage :", chain_input_as_list(file))
-    
-
-    # tests = [
-    #     "11",
-    #     "22",
-    #     "99",
-    #     "1010",
-    #     "58721123",
-    #     "12312345",
-    #     "12345678",
-    # ]
-
-    # for test_id in tests:
-    #     print(f"{test_id:<12} -> {is_wrong_id(test_id)}")
-    
-
-    # print("Affichage des IDs incorrect : ", collect_wrong_patterns(tuple(tests)))
 
 if __name__ == "__main__":
     main()

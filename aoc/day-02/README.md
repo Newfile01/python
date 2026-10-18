@@ -96,7 +96,7 @@ n=5, i=0 : groupe2 = id_str[5:10]
 
 ---
 
-#### TESTS DE VERIF
+#### TESTS & VERIF
 
 
 > À rajouter dans la fonction `main()` pour tester
@@ -104,6 +104,10 @@ n=5, i=0 : groupe2 = id_str[5:10]
 > → le résultat trouvé ne correspondait pas avec la v1 de `is_wrong_id()`
 > 
 > Possibilité d'utiliser le fichier d'entrée correspondant à l'exemple du day-02 sur le site AoC : `example_input_d02.txt`
+
+> [!NOTE]- La vérification des IDs commençant par `0`
+> Cette vérification est induite dans le transtypage en `int`
+> → Plus de nombre commençant par `0`
 
 <br/>
 
@@ -136,4 +140,16 @@ n=5, i=0 : groupe2 = id_str[5:10]
 
     for test_id in tests:
         print(f"{test_id:<12} -> {is_wrong_id(test_id)}")
+```
+
+Utilisé également à un moment pour tester des IDs aléatoire :
+
+```python
+# Générateur aléatoire d'IDs
+def generate_id() -> int:
+    length = random.randint(2, 10)
+    first_digit = random.randint(1, 9)
+    remaining_digits = random.randint(0, 10**(length - 1) - 1)
+
+    return first_digit * 10**(length - 1) + remaining_digits
 ```
