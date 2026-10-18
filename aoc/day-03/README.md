@@ -45,5 +45,5 @@ for item in string_list:
 			# Parcours de tous les caractères suivants celui de la boucle précédente
 ```
 
-> [!TIPS]
->Ici la forme `for i in item[index + 1:]:` exploitant le slice pour parcourir à partir du caractère retenu au niveau de boucle supérieur est très intéressant et efficace pour une comparaison 2 à 2 avec le reste de la chaîne.
+> [!TIP]
+> Ici la forme `for i in item[index + 1:]:` exploitant le slice pour parcourir à partir du caractère retenu au niveau de boucle supérieur est très intéressant et efficace pour une comparaison 2 à 2 avec le reste de la chaîne.
