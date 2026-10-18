@@ -76,12 +76,12 @@ def is_wrong_id(id_str: str) -> bool:
                 return True
 ```
 
-
-#### EXPLICATIONS
+#### EXPLICATIONS `is_wrong_id()` v1
 
 > [!TIPS]+ Les commentaires intitulés "Pour comprendre" sont des blocs de code permettant d'afficher le comportement du programme
 > Pour les utiliser il suffit de les décommenter puis relancer le script
 
+<br/>
 Parcours motif par motif de 0 à (len-2*n+1) : n=1 → i de 0 à 8 ; n=2 → i de 0 à 6 ... n=5 → i=0 seulement
 
 n=1, i=0 : groupe1 = id_str[0:1] ; n=1, i=1 : groupe1 = id_str[1:2] ... n=1, i=8 : groupe1 = id_str[8:9]
@@ -92,11 +92,20 @@ n=2, i=0 : groupe2 = id_str[2:4] ; n=1, i=1 : groupe2 = id_str[3:5] ... n=2, i=6
 n=5, i=0 : groupe1 = id_str[0:5]
 n=5, i=0 : groupe2 = id_str[5:10]
 
+<br/>
+
+---
+
 #### TESTS DE VERIF
+
 
 > À rajouter dans la fonction `main()` pour tester
 > C'est ce qui m'a permis de vérifier avec l'exemple de AoC 
 > → le résultat trouvé ne correspondait pas avec la v1 de `is_wrong_id()`
+> 
+> Possibilité d'utiliser le fichier d'entrée correspondant à l'exemple du day-02 sur le site AoC : `example_input_d02.txt`
+
+<br/>
 
 ```python
     # Pour comprendre
