@@ -78,7 +78,8 @@ def is_wrong_id(id_str: str) -> bool:
 
 #### EXPLICATIONS `is_wrong_id()` v1
 
-> [!TIPS]+ Les commentaires intitulés "Pour comprendre" sont des blocs de code permettant d'afficher le comportement du programme
+> [!TIP]
+> Les commentaires intitulés "Pour comprendre" sont des blocs de code permettant d'afficher le comportement du programme
 > Pour les utiliser il suffit de les décommenter puis relancer le script
 
 <br/>
@@ -105,7 +106,8 @@ n=5, i=0 : groupe2 = id_str[5:10]
 > 
 > Possibilité d'utiliser le fichier d'entrée correspondant à l'exemple du day-02 sur le site AoC : `example_input_d02.txt`
 
-> [!NOTE]- La vérification des IDs commençant par `0`
+> [!NOTE]
+> La vérification des IDs commençant par `0`
 > Cette vérification est induite dans le transtypage en `int`
 > → Plus de nombre commençant par `0`
 
