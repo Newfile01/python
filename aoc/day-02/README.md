@@ -1,5 +1,4 @@
 # Day-02 - Remarques sur le code
-------------------------
 
 ![day02](./problem_day02.png)
 
