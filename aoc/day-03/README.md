@@ -1,6 +1,6 @@
 # Day-03 - Récapitulatif des éléments majeurs de ce code
 
-[Day-03](./problem_d03.png)
+![Day-03](./problem_d03.png)
 
 
 ### 1) Récupération concise et efficace en tuple → `comprehension`
