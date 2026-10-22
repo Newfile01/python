@@ -1,6 +1,6 @@
 # Day-04 - Récapitulatif des éléments majeurs de ce code
 
-[Day-04](./problem_d04.png)
+![Day-04](./problem_d04.png)
 
 ## 1) Exploitation des `expressions génératrice` & `compréhensions`
 
