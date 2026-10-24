@@ -5,7 +5,7 @@
 
 
 Complete Year 2025 - Day 01 to Day 12 Python coding challenges, one step a day.
-Focus on P1
+This repository focus on part 1 of each day
 
 
 - **Day 01** - Safe break challenge : Get the Passphrase from a list of instructions
