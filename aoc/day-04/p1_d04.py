@@ -2,7 +2,7 @@
 
 # Auteur : Nicolas MOREL
 # Date : 18/10/2026
-# Description : Total output joltage
+# Description : Break rolls wall
 
 def longueur_list(test_list: list) -> int:
     return sum(len(line) for line in test_list)

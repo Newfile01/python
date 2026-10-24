@@ -2,9 +2,7 @@
 
 # Auteur : Nicolas MOREL
 # Date : 18/10/2026
-# Description : Total output joltage
-
-# Objectif : Déterminer le nombre d'ingrédients frais parmi ceux disponibles
+# Description : How many available ingredients are fres ?
 
 
 def collect_input(path: str) -> tuple[list[str], list[str]]:
