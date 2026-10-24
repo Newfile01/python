@@ -4,7 +4,7 @@
 | --- | --- |
 
 
-Complete Day 01 to Day 12 Python coding challenges, one step a day.
+Complete Year 2025 - Day 01 to Day 12 Python coding challenges, one step a day.
 Focus on P1
 
 
