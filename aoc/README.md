@@ -13,6 +13,6 @@ This repository focus on part 1 of each day
 - **Day 03** - Lobby challenge : Find the Total output joltage
 - **Day 04** - Printing Department challenge : Break rolls wall by getting the amount of accessible rolls
 - **Day 05** - Cafeteria challenge : How many available ingredients are fresh ?
-- **Day 06** - Coming. . .
+- **Day 06** - Trash Compactor challenge : Solve every column math operation
 - **Day 07** - Coming. . .
 - **Day 08** - Coming. . .
