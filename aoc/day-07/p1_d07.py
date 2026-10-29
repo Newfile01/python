@@ -2,7 +2,7 @@
 
 # Auteur : Nicolas MOREL
 # Date : 25/10/2026
-# Description : Solve every column math operation
+# Description : How much times did the beam splitted ?
 
 import copy
 
@@ -30,7 +30,7 @@ def trace_beam(input_list: list) -> list, int:
     """
     Créé une copie d'une liste de liste de caractères et la parcours pour 
     en modifier certains selon un schéma spécifique. Chaque '^' donnant lieu à une division
-    du faisceau, marqué '|', en deux. Chaque division du faisceau est comptabilisé en parallèle.
+    du faisceau, marqué '|', en deux. Chaque division du faisceau est en parallèle comptabilisée.
 
     :param input_list: Liste de listes de caractères
     :source: La position de départ du faisceau sur la première ligne

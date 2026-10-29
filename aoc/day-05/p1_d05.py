@@ -2,7 +2,7 @@
 
 # Auteur : Nicolas MOREL
 # Date : 18/10/2026
-# Description : How many available ingredients are fres ?
+# Description : How many available ingredients are fresh ?
 
 
 def collect_input(path: str) -> tuple[list[str], list[str]]:
